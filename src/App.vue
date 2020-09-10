@@ -1,16 +1,13 @@
 <template>
 <div>
-    <pearl />
+    hi | <router-link to='/'>pearl</router-link> | <router-link to='/xxx'>pearl2</router-link>
 </div>
+<hr />
+<router-view />
 </template>
 
 <script>
-import pearl from './components/pearl.vue'
-
 export default {
-    name: 'App',
-    components: {
-        pearl
-    }
-}
+    name: "App",
+};
 </script>
