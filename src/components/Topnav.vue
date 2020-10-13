@@ -1,0 +1,41 @@
+<template>
+<div class="topnave">
+    <div class="logo">
+        <img src="../assets/image/logo.png" />
+        <span>Vue.js</span>
+    </div>
+    <div class="menu">
+        <span>菜单</span>
+        <span>菜单</span>
+    </div>
+</div>
+</template>
+
+<style lang="scss" scoped>
+/* 顶部导航 */
+.topnave {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    background: #FDFFE0;
+
+    .logo {
+        display: flex;
+        align-items: center;
+        margin-right: 30px;
+
+        img {
+            width: 64px;
+        }
+
+        span {
+            font-size: 30px;
+        }
+    }
+
+    .menu span {
+        display: inline-block;
+        padding: 0 30px;
+    }
+}
+</style>
