@@ -23,7 +23,28 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.actions a {
-    display: block;
+.banner {
+    padding: 100px 0;
+    text-align: center;
+    background: #88DF90;
+
+    h1 {
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        margin-bottom: 10px;
+    }
+
+    .actions a {
+        display: inline-block;
+        margin: 0 8px;
+        padding: 0 8px;
+        $h: 28px;
+        height: $h;
+        line-height: $h;
+        border-radius: $h/2;
+        background: #fff;
+    }
 }
 </style>
