@@ -37,16 +37,26 @@ export default {
 <style lang="scss" scoped>
 .content {
     display: flex;
-    height: calc(100vh - 84px);
-}
 
-.content aside {
-    width: 10%;
-    text-align: center;
-    background: #D1FACC;
-}
+    aside {
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding: 100px 16px 16px;
+        width: 150px;
+        background: lightblue;
+    }
 
-.content main {
-    width: 90%;
+    h2 {
+        margin-bottom: 4px;
+    }
+
+    li {
+        padding: 8px 0;
+    }
+
+    main {
+        width: 90%;
+    }
 }
 </style>

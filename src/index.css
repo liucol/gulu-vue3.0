@@ -6,4 +6,7 @@ a{
   text-decoration:none;
   color:#333;
 }
+ul,li,ol,li{
+  list-style:none;
+}
 

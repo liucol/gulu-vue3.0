@@ -14,6 +14,8 @@
 <style lang="scss" scoped>
 /* 顶部导航 */
 .topnave {
+    position: relative;
+    z-index: 10;
     display: flex;
     align-items: center;
     padding: 10px 0;
