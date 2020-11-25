@@ -6,7 +6,7 @@
                 <h2>组件列表</h2>
                 <ol>
                     <li>
-                        <router-link to="/doc/swich">Switch 组件</router-link>
+                        <router-link to="/doc/switch">Switch 组件</router-link>
                     </li>
                     <li>
                         <router-link to="/doc/button">Button 组件</router-link>
@@ -19,7 +19,9 @@
                     </li>
                 </ol>
             </aside>
-            <main>主内容</main>
+            <main>
+                <router-view/>
+            </main>
         </div>
     </div>
 </template>
@@ -31,6 +33,7 @@
         inject,
         Ref
     } from 'vue';
+
 
     export default {
         components: {
@@ -48,10 +51,10 @@
         display: flex;
 
         aside {
-            position: fixed;
+            position: relative;
             top: 0;
             left: 0;
-            padding: 100px 16px 16px;
+            padding: 30px 16px 16px;
             width: 150px;
             background: lightblue;
 
@@ -63,6 +66,7 @@
                 padding: 8px 0;
             }
         }
+
         main {
             width: 90%;
         }
