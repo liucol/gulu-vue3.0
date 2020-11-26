@@ -1,6 +1,40 @@
 <template>
-    <div>
-        switch的文档
+    <div class="wrap">
+        <p>switch的文档</p>
+        <p>switch的文档</p>
+        <p>switch的文档</p>
+        <p>switch的文档</p>
+        <p>switch的文档</p>
+        <p>switch的文档</p>
+        <p>switch的文档</p>
+        <p>switch的文档</p>
+        <p>switch的文档</p>
+        <p>switch的文档</p>
+        <p>switch的文档</p>
+        <p>switch的文档</p>
+        <p>switch的文档</p>
+        <p>switch的文档</p>
+        <p>switch的文档</p>
+        <p>switch的文档</p>
+        <p>switch的文档</p>
+        <p>switch的文档</p>
+        <p>switch的文档</p>
+        <p>switch的文档</p>
+        <p>switch的文档</p>
+        <p>switch的文档</p>
+        <p>switch的文档</p>
+        <p>switch的文档</p>
+        <p>switch的文档</p>
+        <p>switch的文档</p>
+        <p>switch的文档</p>
+        <p>switch的文档</p>
+        <p>switch的文档</p>
+        <p>switch的文档</p>
+        <p>switch的文档</p>
+        <p>switch的文档</p>
+        <p>switch的文档</p>
+        <p>switch的文档</p>
+        <p>switch的文档</p>
     </div>
 </template>
 
@@ -11,5 +45,7 @@
 </script>
 
 <style scoped>
+    .wrap {
 
+    }
 </style>

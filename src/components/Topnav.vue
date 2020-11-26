@@ -32,13 +32,16 @@
 <style lang="scss" scoped>
     /* 顶部导航 */
     .topnave {
-        position: relative;
+        position: fixed;
+        left:0;
+        right: 0;
+        top: 0;
         z-index: 10;
         display: flex;
         justify-content: center;
         align-items: center;
         padding: 10px 0;
-        background: #FDFFE0;
+        background: #FCC7CA;
 
         .logo {
             display: flex;
@@ -47,7 +50,7 @@
             margin-left: 60px;
 
             img {
-                width: 64px;
+                width: 54px;
             }
 
             span {

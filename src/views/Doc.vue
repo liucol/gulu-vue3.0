@@ -1,7 +1,7 @@
 <template>
     <div>
         <Topnav/>
-        <div class="content">
+        <div class="content" :class="{showAside: menuVisible}">
             <aside v-if="menuVisible">
                 <h2>组件列表</h2>
                 <ol>
@@ -49,13 +49,17 @@
 <style lang="scss" scoped>
     .content {
         display: flex;
+        padding-left: 182px;
+        margin-top: 74px;
+        min-height: calc(100vh - 74px);
 
         aside {
-            position: relative;
-            top: 0;
+            position: fixed;
+            top: 74px;
             left: 0;
             padding: 30px 16px 16px;
             width: 150px;
+            height: 100%;
             background: lightblue;
 
             h2 {
@@ -63,12 +67,25 @@
             }
 
             li {
-                padding: 8px 0;
+                padding: 8px 0 4px 0;
             }
         }
 
         main {
-            width: 90%;
+            width: 100%;
+            margin: 5px 0 0 5px;
+            padding: 10px;
+            background: #88DF8E;
         }
+    }
+
+    @media (max-width: 500px) {
+        .content {
+            padding-left: 0;
+        }
+    }
+
+    .showAside{
+        padding-left: 182px;
     }
 </style>
