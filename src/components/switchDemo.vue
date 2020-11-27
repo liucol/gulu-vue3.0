@@ -1,46 +1,16 @@
 <template>
     <div class="wrap">
-        <p>switch的文档</p>
-        <p>switch的文档</p>
-        <p>switch的文档</p>
-        <p>switch的文档</p>
-        <p>switch的文档</p>
-        <p>switch的文档</p>
-        <p>switch的文档</p>
-        <p>switch的文档</p>
-        <p>switch的文档</p>
-        <p>switch的文档</p>
-        <p>switch的文档</p>
-        <p>switch的文档</p>
-        <p>switch的文档</p>
-        <p>switch的文档</p>
-        <p>switch的文档</p>
-        <p>switch的文档</p>
-        <p>switch的文档</p>
-        <p>switch的文档</p>
-        <p>switch的文档</p>
-        <p>switch的文档</p>
-        <p>switch的文档</p>
-        <p>switch的文档</p>
-        <p>switch的文档</p>
-        <p>switch的文档</p>
-        <p>switch的文档</p>
-        <p>switch的文档</p>
-        <p>switch的文档</p>
-        <p>switch的文档</p>
-        <p>switch的文档</p>
-        <p>switch的文档</p>
-        <p>switch的文档</p>
-        <p>switch的文档</p>
-        <p>switch的文档</p>
-        <p>switch的文档</p>
-        <p>switch的文档</p>
+        <Switch />
     </div>
 </template>
 
-<script>
+<script lang="ts">
+    import Switch from "../lib/Switch.vue";
     export default {
-        name: "switchDemo"
+        name: "switchDemo",
+        components:{
+            Switch
+        }
     }
 </script>
 
